@@ -92,7 +92,7 @@ function App() {
             <h2 className="text-slate-600">Meaning</h2>
             <ul className="list-disc ml-10 my-4">
   {details?.[0]?.meanings?.[0]?.definitions?.map((mean, index) => (
-    <li key={index} className="mb-5">{mean.definition}</li>
+    <li key={index} className="mb-5 max-w-[700px]">{mean.definition}</li>
   ))}
 </ul>
           </div>
@@ -108,12 +108,12 @@ function App() {
             <h2 className="text-slate-600">Meaning</h2>
             <ul className="list-disc ml-10 my-4">
             {details?.[0]?.meanings?.[1]?.definitions?.map((mean, index) => (
-    <li key={index} className="mb-5">{mean.definition}</li>
+    <li key={index} className="mb-5 max-w-[700px]">{mean.definition}</li>
   ))}
             </ul>
           </div>
           <hr className="mx-44 sm:mx-12 md:mx-0 bg-gray-300 h-[2px]" />
-          <div className="my-5 text-[13px] flex gap-4 items-center w-[700px]">
+          <div className="my-5 text-[13px] flex items-center justify-center gap-4 w-[700px]">
             <p className="text-slate-600">Source</p>
             <div className="flex gap-1">
               <a
