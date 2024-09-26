@@ -4,9 +4,9 @@ This is a simple and intuitive dictionary website where users can search for wor
 
 # Tech Stack 
 
-<b>Frontend:</b> React.js, Tailwind CSS
-<b>Backend/Word API:</b> Dictionary API (or any other word API of your choice)
-<b>Build Tool:</b> Vite
+- <b>Frontend:</b> React.js, Tailwind CSS.
+- <b>Backend/Word API:</b> Dictionary API (or any other word API of your choice).
+- <b>Build Tool:</b> Vite.
 
 
 # License
