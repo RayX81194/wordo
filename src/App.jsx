@@ -21,7 +21,6 @@ function App() {
       const data = await res.json();
       if (data) {
         setDetails(data);
-        console.log(data)
         setError(null); 
       } else {
         setDetails(null);
